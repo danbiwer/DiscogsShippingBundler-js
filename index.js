@@ -14,6 +14,6 @@ var id_params = {
 };
 
 discogs.process_params(id_params, function(result){
-	console.log("success"+result.length);
+	//console.log("success"+result.length);
 	console.log(result);
 });
